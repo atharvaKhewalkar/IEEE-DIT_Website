@@ -1,0 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.about{
+    background-image: url(../../../background/img/2.svg);
+    height: 120vh;
+}
