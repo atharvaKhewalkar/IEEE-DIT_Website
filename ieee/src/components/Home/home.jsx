@@ -1,7 +1,7 @@
 import React from "react";
 import './home.css'
-
-
+import ani1 from '../animations/ani1.json'
+import Lottie from 'lottie-react';
 
 function Home(){
     return(
@@ -52,11 +52,11 @@ function Home(){
                     <div className="homePage">
                         <div className="homeLeft">
                             <h1>Welcome</h1>
-                            <h1>To</h1>
-                            <h1>IEEE</h1>
+                            <span>To</span>
+                            <h1>IEEE !!</h1>
                         </div>
                         <div className="homeRight">
-                            
+                            <Lottie className="animatio" animationData={ani1} style={{width:"44%"}}/>
                         </div>
                             
                     </div>

@@ -4,5 +4,33 @@
 }
 .about{
     background-image: url(../../../background/img/2.svg);
-    height: 120vh;
+    height: 100%;
+    position: relative;
+} 
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.heading h1{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.abt-cnt{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.ani3{
+    width: 25%;
+    top: -12%;
+    left: 16%;
+    position: absolute;
+}
+/* .abt-ani{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

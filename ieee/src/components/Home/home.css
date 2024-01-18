@@ -2,10 +2,15 @@
     padding: 0%;
     margin: 0%;
 }
+section{
+    width: 100%;
+}
 .home{
     background-image: url(../../../background/img/1.svg);
-    height: 120vh;
+    height: 100%;
+    width: 100%;
 } 
+
 .nav-pstn{
     display: flex;
     align-items: center;
@@ -34,4 +39,35 @@ nav{
 .homePage{
     padding-top: 15vh;
     height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.homeLeft{
+    flex: -1;
+    padding: 4rem;
+    width: 50%;
+}
+.homeLeft h1{
+    color: rgba(249, 23, 61, 0.888);
+    font-size: 7rem;
+}
+.homeLeft span{
+    color: rgb(23, 0, 227); 
+    font-size: 6rem;
+}
+.homeRight{
+    flex: -1;
+    width: 50%;
+}
+.animatio{
+    position: absolute;
+    left: 56%;
+    height: 88%;
+    top: -1%;
+}
+.navbar{
+    background-image: url(../../../background/img/3.svg);
+    background-size: cover;
+    border-radius: 2rem;
+    border: solid rgba(255, 111, 0, 0.347);
 }
