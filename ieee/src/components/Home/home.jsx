@@ -49,13 +49,13 @@ function Home(){
                         </div>
                         
                     </div>
-                    <div className="homePage">
-                        <div className="homeLeft">
+                    <div className="homePage col-md-12">
+                        <div className="homeLeft col-md-6">
                             <h1>Welcome</h1>
                             <span>To</span>
                             <h1>IEEE !!</h1>
                         </div>
-                        <div className="homeRight">
+                        <div className="homeRight col-md-6">
                             <Lottie className="animatio" animationData={ani1} style={{width:"44%"}}/>
                         </div>
                             

@@ -9,7 +9,7 @@ section{
     background-image: url(../../../background/img/1.svg);
     height: 100%;
     width: 100%;
-} 
+}
 
 .nav-pstn{
     display: flex;
@@ -42,11 +42,11 @@ nav{
     display: flex;
     width: 100%;
 }
-.homeLeft{
+/* .homeLeft{
     flex: -1;
     padding: 4rem;
     width: 50%;
-}
+} */
 .homeLeft h1{
     color: rgba(249, 23, 61, 0.888);
     font-size: 7rem;
@@ -55,10 +55,10 @@ nav{
     color: rgb(23, 0, 227); 
     font-size: 6rem;
 }
-.homeRight{
+/* .homeRight{
     flex: -1;
     width: 50%;
-}
+} */
 .animatio{
     position: absolute;
     left: 56%;
