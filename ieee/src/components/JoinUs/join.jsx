@@ -3,6 +3,7 @@ import './join.css'
 import ani5 from '../animations/ani5.json'
 import Lottie from 'lottie-react';
 import ani6 from '../animations/ani6.json'
+import ieee_doc from '../../DOCS/IEEE.pdf'
 
 function Join(){
     return(
@@ -23,7 +24,7 @@ function Join(){
                         <input type='email' placeholder='Email'></input>
                         <input type='number' placeholder='Number'></input>
                         <input type='textarea' placeholder='Feedback' style={{height:"20vh"}}></input>
-                        <button className='butn btn btn-primary'>Join Us</button>
+                        <a className='butn btn btn-primary' href={ieee_doc}>Join Us </a>
                         <button className='butn btn btn-primary'>Submit</button>
                     </form>
                 </div>

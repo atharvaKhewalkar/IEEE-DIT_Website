@@ -10,12 +10,11 @@ function App() {
     <div className="App">
     <Home/>
     <About/>
-    <Team/>
     <Event/>
+    <Team/>
     <Join/>
     <Footer/>
     </div>
   );
 }
-
 export default App;

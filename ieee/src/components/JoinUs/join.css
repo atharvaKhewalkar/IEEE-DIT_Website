@@ -41,6 +41,7 @@ form input{
     border: solid rgb(157, 157, 157);
     text-align: center;
     border-radius: 0.5rem;
+    width: 100%;
 }
 form input:hover{
     border: solid  rgba(255, 111, 0, 0.658);

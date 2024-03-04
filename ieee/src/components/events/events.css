@@ -15,7 +15,7 @@
     background-color: rgba(240, 248, 255, 0.29);
     border-radius: 2rem;
     flex: -1;
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,6 +23,7 @@
     padding: 3rem;
     text-align: justify;
     gap: 1rem;
+    font-size: 100%;
 }
 .eve-cnt h3{
     color: rgb(255, 111, 0);

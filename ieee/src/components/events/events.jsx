@@ -25,9 +25,9 @@ function Event(){
                 <button className="btn btn-primary butn">See Details</button>
                 <button className="btn btn-primary butn">Link(form)</button>
                 </div>
-                <div>
+                {/* <div>
                     <Lottie className="ani4" animationData={ani4}/>
-                </div>
+                </div> */}
             </div>
             </div>
         </section>
