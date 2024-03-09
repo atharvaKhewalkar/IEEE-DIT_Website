@@ -18,7 +18,7 @@ function Join(){
                 
                 <div className='jon-cnt'>
                 <Lottie className='ani5' animationData={ani5}/>
-                <Lottie className='ani6' animationData={ani6}/>
+                
                     <form>
                         <input type='text' placeholder='Name'></input>
                         <input type='email' placeholder='Email'></input>

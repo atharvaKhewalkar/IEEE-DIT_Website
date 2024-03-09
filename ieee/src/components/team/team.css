@@ -22,3 +22,22 @@
     top: -9%;
     right: 12%;
 }
+
+@media only screen and (max-width: 768px) {
+    .tem-cnt {
+        flex-direction: row; /* Stack team cards vertically on smaller screens */
+        gap: 1rem; /* Reduce the gap between cards */
+        padding: 1rem; /* Reduce padding for smaller screens */
+        
+    }
+
+    .ani2 {
+        width: 50%; /* Adjust the animation size for smaller screens */
+        right: 25%; /* Adjust the position of the animation */
+        top: -15%; /* Adjust the position of the animation */
+        display: none;
+    }
+    .team{
+        background-image: url(../../../background/img/1.svg);
+    }
+}

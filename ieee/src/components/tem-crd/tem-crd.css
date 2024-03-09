@@ -12,7 +12,7 @@
     
 }
 .tem-crd h4{
-    color: rgb(255, 111, 0);
+    color: rgb(0, 227, 204);;
     font-size: 100%;
     padding: 1rem;
 }
@@ -24,7 +24,18 @@
 }
 
 .tem-crd:hover{
-    box-shadow: 1px 1px 1px 2px rgba(249, 23, 61, 0.888);
+    box-shadow: 1px 1px 1px 2px rgba(23, 196, 249, 0.888);
     
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .tem-crd{
+        font-size: 80%;
+        width: 30%;
+        height: 10rem;
+        align-items: center;
+        text-align: center;
+    }
     
 }

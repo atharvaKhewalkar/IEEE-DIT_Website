@@ -6,6 +6,7 @@
     background-image: url(../../../background/img/2.svg);
     height: 100%;
     position: relative;
+    color: aliceblue;
 } 
 .heading{
     display: flex;
@@ -15,6 +16,7 @@
 .heading h1{
     font-size: 3rem;
     padding: 2rem;
+    
 }
 .abt-cnt{
     display: flex;
@@ -22,6 +24,7 @@
     padding: 4rem;
     gap: 2rem;
     flex-wrap: wrap;
+    color: aliceblue;
 }
 .ani3{
     width: 25%;
@@ -34,3 +37,16 @@
     justify-content: center;
     align-items: center;
 } */
+
+@media only screen and (max-width: 768px) {
+    .ani3{
+        display: none;
+    }
+    .heading h1{
+        font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+    
+    .abt-cnt{
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+}

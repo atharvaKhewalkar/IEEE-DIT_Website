@@ -18,7 +18,7 @@ function About(){
                 <div className="abt-cnt">
                     <AbtCrd
                         Title={"Our Mission"}
-                        Description={"At [Your Organization Name], we are proud to be a part of the Institute of Electrical and Electronics Engineers (IEEE), a global community dedicated to advancing technology for the benefit of humanity. Our mission is to foster innovation, promote collaboration, and inspire individuals to contribute to the ever-evolving field of electrical and electronics engineering."}
+                        Description={'We try our best to adther to the slogan of IEEE itself i.e."Advancing Technology for Humanity". So at our Student Branch we strive to encourage and engage activities in all domains of engineering itself. We want to grow as a leading student branch which uplift Technical Ingenuity and innovation.'}
                     />
 
                     <AbtCrd

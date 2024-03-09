@@ -3,9 +3,26 @@
     margin: 0%;
 }
 .footer{
-        
+    position: relative;
     height: 100%;
 }
 .ani7{
     height: 40%;
+
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    background-color: rgb(1, 32, 76);
+}
+
+.linke{
+    width: 10%;
+}
+
+.insta{
+    width: 20%;
 }

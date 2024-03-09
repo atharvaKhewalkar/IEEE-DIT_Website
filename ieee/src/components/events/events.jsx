@@ -13,17 +13,33 @@ function Event(){
                 <h1>Upcoming Events</h1>
             </div>
             <div className="eve-cnt">
-                <h3>IEEE_event_name</h3>
-                <p>I'm sorry for any confusion, but as of my last knowledge update in January 2022, I don't have real-time information or specific details about current IEEE events. IEEE (Institute of Electrical and Electronics Engineers) organizes numerous conferences, workshops, and events globally on various topics related to technology and engineering.
+                <h3>IEEE YESIST12</h3>
+                <p>Join us at IEEE YESIST12, where innovation meets sustainability! On March 11th, 2024, Dr. D. Y. Patil Institute of Technology, Pimpri, will host the preliminary round. 
 
-                To find the most recent and specific details about IEEE events, I recommend visiting the official IEEE website (https://www.ieee.org/) or checking the IEEE conference search page (https://conferences.ieee.org/) for the latest information on upcoming events, including dates, locations, and themes.
+                Excitingly, 20+ countries are participating in YESIST12 2024, and the grand finale will be held in Tunisia. 
 
-                If you have a particular IEEE event in mind, please specify the event's name or type, and I can provide general information or guidance based on my last update.</p>
+                This project competition offers two tracks: 
+                The INNOVATION CHALLENGE TRACK, focusing on holistic solutions aligned with the UN's Sustainable Development Goals, and 
+                The SPECIAL TRACK, centered on Smart Infrastructure and Safe Living. 
 
-                <span>Event_FOMO</span>
+                
+                
+
+                Let's innovate, collaborate, and shape a brighter tomorrow together! 
+
+                Save the date: March 11th, 2024
+                Venue: Dr. D. Y. Patil Institute of Technology, Pimpri</p>
+
+                <span>Don't miss this out</span>
                 <div className="butn-grp">
-                <button className="btn btn-primary butn">See Details</button>
+                <a href="https://chat.whatsapp.com/GIMKvagSiEBFpPQXv3UtAx">
+                    <button className="btn btn-primary butn">See Details</button>
+                </a>
+                
+                <a href="https://portal.ieeeyesist12.org/dypit">
                 <button className="btn btn-primary butn">Link(form)</button>
+                </a>
+                
                 </div>
                 {/* <div>
                     <Lottie className="ani4" animationData={ani4}/>

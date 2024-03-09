@@ -13,12 +13,13 @@ function Team(){
             <div className="tem-cnt">
                 <TemCrd
                     Img={""}
-                    Name={"Anshuman"}
+                    Name={"Anshuman Mishra"}
                     Position={"Chair"}
+                    
                 />
                                 <TemCrd
                     Img={""}
-                    Name={"Tejaswini"}
+                    Name={"Tejaswini Sontakke"}
                     Position={"Vice Chair "}
                 />
                 <TemCrd
@@ -33,7 +34,7 @@ function Team(){
                 />
                                 <TemCrd
                     Img={""}
-                    Name={"Sudanshu"}
+                    Name={"Sudanshu Uttawar"}
                     Position={"Departmental Head"}
                 />
                 <TemCrd
@@ -96,11 +97,7 @@ function Team(){
                     Name={"Bhavesh Choudhary"}
                     Position={"Assistant treasurer"}
                 />
-                               <TemCrd
-                    Img={""}
-                    Name={"Aradhana Kumari"}
-                    Position={"Membership Coordinatorr"}
-                />
+                             
                                <TemCrd
                     Img={""}
                     Name={" Disha Jadhav"}
